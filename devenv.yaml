@@ -1,0 +1,22 @@
+inputs:
+  devenv:
+    url: github:cachix/devenv/v1.11.2?dir=src/modules
+  nixpkgs:
+    url: github:NixOS/nixpkgs/a672be65651c80d3f592a89b3945466584a22069
+  treefmt-nix:
+    url: github:numtide/treefmt-nix
+    inputs:
+      nixpkgs:
+        follows: nixpkgs
+  pgmigrateSrc:
+    url: github:yandex/pgmigrate/76a0eec2cabadae6f3a66527d7e421ca2797bf90
+    flake: false
+  uniAlgoSrc:
+    url: github:uni-algo/uni-algo/6c091fa266ac03a852128429af3b7481cf50a0ab
+    flake: false
+  userverSrc:
+    url: github:userver-framework/userver/ba2ae1fefaebacd41647d6b3fcf5023546a67065
+    flake: false
+  yandexTaxiTestsuiteSrc:
+    url: github:yandex/yandex-taxi-testsuite/183bdc16a65cc050e3aee79ee7088f778f6e9666
+    flake: false
