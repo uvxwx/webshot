@@ -1,3 +1,4 @@
+  - Актуальный репозиторий https://github.com/seriouscoder43/webshot
   - webshot — бэкенд веб‑архива вроде archive.today: принимает URL, ставит задачу на захват страницы через headless Chromium, упаковывает результат в форматах WACZ и WARC, сохраняет артефакт в
     S3‑совместимое хранилище и хранит метаданные и статусы в Postgres (см. schema/webshot.yaml:1, webshotd/src/crawler/runner.cpp:1, webshotd/src/crawler/artifacts.cpp:1, webshotd/sql/schema/
     capture_meta_db.sql:1, webshotd/sql/schema/shared_state_db.sql:1).
